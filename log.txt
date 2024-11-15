@@ -1,0 +1,16 @@
+{"username":"t1","bal":100,"gameName":"Teen Patti Face Off","gameId":"TPFO","roundId":"123456","transactionId":"123456432","sessionId":"12345611122","action":"bet","finished":0,"updatedBalance":454,"betId":""}
+{"username":"t1","bal":100,"gameName":"Teen Patti Face Off","gameId":"TPFO","roundId":"123456","transactionId":"123456432","sessionId":"12345611122","action":"bet","finished":0,"updatedBalance":454,"betId":""}
+{"username":"t1","bal":100,"gameName":"Teen Patti Face Off","gameId":"TPFO","roundId":"123456","transactionId":"123456432","sessionId":"12345611122","action":"bet","finished":0,"updatedBalance":454,"betId":""}
+{"username":"t1","bal":100,"gameName":"Teen Patti Face Off","gameId":"TPFO","roundId":"123456","transactionId":"123456432","sessionId":"12345611122","action":"bet","finished":0,"updatedBalance":454,"betId":""}
+{"username":"t1","bal":100,"gameName":"Teen Patti Face Off","gameId":"TPFO","roundId":"123456","transactionId":"123456432","sessionId":"12345611122","action":"bet","finished":0,"updatedBalance":454,"betId":""}
+{"username":"c003","bal":100,"gameName":"Teen Patti Face Off","gameId":"TPFO","roundId":"123456","transactionId":"1234567","sessionId":"12345611122","action":"win","finished":0,"updatedBalance":1660,"betId":""}{"createdTime":1694589980983,"username":"c0031","bal":100,"gameName":"Teen Patti Face Off","gameId":"TPFO","roundId":"123456","transactionId":"1234567","sessionId":"12345611122","action":"win","finished":0,"updatedBalance":1660,"betId":""}{"createdTime":"2023-09-13T07:30:06.062Z","username":"c0032","bal":100,"gameName":"Teen Patti Face Off","gameId":"TPFO","roundId":"123456","transactionId":"1234567","sessionId":"12345611122","action":"win","finished":0,"updatedBalance":1660,"betId":""}
+{"createdTime":"2023-09-13T07:30:25.914Z","username":"c0033","bal":100,"gameName":"Teen Patti Face Off","gameId":"TPFO","roundId":"123456","transactionId":"1234567","sessionId":"12345611122","action":"win","finished":0,"updatedBalance":1660,"betId":""}
+{"createdTime":"2023-09-13T07:30:50.831Z","username":"c0034","bal":100,"gameName":"Teen Patti Face Off","gameId":"TPFO","roundId":"123456","transactionId":"1234567","sessionId":"12345611122","action":"win","finished":0,"updatedBalance":1660,"betId":""}
+{"createdTime":"2023-09-13T08:42:07.979Z","username":"c00343","bal":100,"gameName":"Teen Patti Face Off","gameId":"TPFO","roundId":"123456","transactionId":"1234567","sessionId":"12345611122","action":"win","finished":0,"updatedBalance":1660,"betId":""}
+{"createdTime":"2023-12-01T11:19:17.576Z"}
+{"createdTime":"2023-12-01T11:19:51.028Z"}
+{"createdTime":"2023-12-01T11:19:52.057Z"}
+{"createdTime":"2023-12-01T11:19:55.975Z"}
+{"createdTime":"2023-12-01T11:20:03.389Z"}
+{"createdTime":"2023-12-01T11:20:13.049Z"}
+{"createdTime":"2023-12-01T11:20:33.416Z"}
