@@ -1,0 +1,176 @@
+ 
+
+@media screen and (max-width: 767px) {
+
+
+/* mobile_next */
+.extend-btn img{margin-left:15px;}
+
+
+
+
+
+
+
+
+
+ 
+
+}
+
+@media screen and (max-width: 575px) {
+
+/* mobile-device */
+.power-wrap-b {
+    width: 150px;
+    padding: 5px 10px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.power-wrap-b span {
+    font-size: 12px;
+}
+
+.power-wrap-b img {
+    max-height: 14px;
+    width: auto;
+}
+
+.appdl-link-android p {
+    font-size: 12px;
+}
+
+.policy-link a {
+    font-size: 12px;
+}
+
+.policy-link {
+    margin: 0;
+}
+
+.extend-btn img {
+    width: 32px;
+    height: 32px;
+}
+
+.support-social img {
+    width: 24px;
+    height: 24px;
+}
+
+.support-social {
+    grid-column-gap: 3px;
+} 
+.games_main .title h2 {
+    line-height: 30px;
+    font-size: 12px;
+    flex: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.games_main .title span {
+    font-size: 12px;
+    padding: 7px 10px;
+}
+
+.games_main .title span::before {
+    border-bottom: 30px solid #ffb80c;
+    border-left: 15px solid transparent;
+    border-right: 4px solid transparent;
+    left: -16px;
+    width: 20px;
+}
+.on_live dd{font-size:12px; margin-bottom:4px;}
+
+
+.on_live dd {
+    margin: 1px 0;
+    font-size: 9px;
+}
+
+.on_live dt {
+    margin-bottom: 5px;
+}
+
+.on_live {
+    padding: 3px;
+    width: 100px;
+}
+
+.on_live dd span {
+    min-width: 12px;
+    height: 12px;
+    padding: 0 2px;
+    line-height: 1.5;
+}
+
+.on_live dd p {
+    line-height: 10px;
+}
+
+.on_live .live_icon {
+    line-height: 13px;
+    height: 16px;
+    font-size: 10px;
+}
+
+.extend-btn{font-size: 14px;}
+
+.appdl-link-android img{max-height: inherit; height:50px;}
+.bottom_footer .main-nav:before {
+    height: 20px;
+    top: -19px;
+}
+ 
+}
+
+@media screen and (max-width: 479px) {
+    .extend-btn,.support-wrap.extend-support a{font-size: 12px;}
+   
+    .extend-btn img {
+        width: 28px;
+        height: 28px;
+        margin-left:5px;
+    }
+    .container-fluid {
+        padding: 0 8px;
+    }
+
+
+    .bottom_footer a {
+        font-size: 13px; 
+        width: 100%;
+        padding: 7px;    justify-content: flex-end;
+    }
+
+    
+    .bottom_footer a img {
+        width: auto;
+        max-height: 22px;
+    }
+    
+    .bottom_footer ul li.main-nav img {
+        width: 35px;
+        margin-top: -13px;
+    }
+    
+    .bottom_footer .main-nav:before {
+        height: 13px;
+        top: -13px;
+        width: 100%; 
+    }
+    
+ 
+    
+    .bottom_footer ul li {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    .social-btn {
+        padding: 2px 0;
+    }
+
+}
