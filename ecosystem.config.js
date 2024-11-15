@@ -1,70 +1,20 @@
 module.exports = {
   apps: [{
-    name: "life-in-casino-api",
-    script: "./index.js",
+    name: "possia-mobile",
+    script: "./server.js",
     watch: true,
     ignore_watch: [".git", "node_modules", "public"],
-    env_development: {
-      MONGO_USERNAME: "arpitkhandelwal",
-      MONGO_PASSWORD: "mKQVopgjOH2QeCIm",
-      MONGO_SERVER: "cluster0.6dfxqsh.mongodb.net",
-      MONGO_DB: "lifeincasino",
-      JWT_SECRET: "sports@123",
-      JWT_ADMIN_SECRET: "sportsadmin@123",
-      tokenLife: "1d",
-      refreshTokenLife: "3d",
-      IMAGE_LOCAL_PATH: "http://192.168.1.157:8001/img/",
-      PORT: 8001,
-      IP: "183.83.178.233",
-      CASINO_API_BASE_URL: "https://dev-api.dreamdelhi.com/",
-      CASINO_OPERATOR_ID: "lifeincasino",
-      SERVER_IP: "13.202.16.129",
-      APP_URL: "https://lifeincasino.com",
-      CASINO_AMOUNT_LIMIT: 5000,
-      MATCH_BEFORE_IN_PLAY_TIME: '30',
-      SUPER_OWNER_ID: "6332e02348ed275e89eadf14"
+    env: {
+      PORT: 7002,
+      NODE_ENV: "development",
+      REACT_APP_API_BASE_URL: "http://192.168.1.62:7001/",
+      REACT_APP_URL: "http://192.168.1.62:7002/"
     },
-    // env_production: {
-    //   MONGO_USERNAME: "arpitkhandelwal",
-    //   MONGO_PASSWORD: "mKQVopgjOH2QeCIm",
-    //   MONGO_SERVER: "cluster0.6dfxqsh.mongodb.net",
-    //   MONGO_DB: "poisabazz",
-    //   JWT_SECRET: "sports@123",
-    //   JWT_ADMIN_SECRET: "sportsadmin@123",
-    //   tokenLife: "1d",
-    //   refreshTokenLife: "3d",
-    //   IMAGE_LOCAL_PATH: "https://api.lifeincasino.com/img/",
-    //   PORT: 8001,
-    //   IP: "183.83.178.233",
-    //   CASINO_API_BASE_URL: "https://casino.winx777.com/",
-    //   CASINO_OPERATOR_ID: "lifeincasino",
-    //   SERVER_IP: "13.202.16.129",
-    //   APP_URL: "https://lifeincasino.com",
-    //   CASINO_AMOUNT_LIMIT: 400000,
-    //   MATCH_BEFORE_IN_PLAY_TIME: '30',
-    //   SUPER_OWNER_ID: "6332e02348ed275e89eadf14"
-    // },
-    env_production: {
-      MONGO_USERNAME: "lifeincasino01",
-      MONGO_PASSWORD: "sDazo6FzZ0j0bLMp",
-      MONGO_SERVER: "lifeincasino.dfqqz.mongodb.net",
-      MONGO_DB: "lifeincasino",
-      JWT_SECRET: "sports@123",
-      JWT_ADMIN_SECRET: "sportsadmin@123",
-      tokenLife: "1d",
-      refreshTokenLife: "3d",
-      IMAGE_LOCAL_PATH: "https://api.lifeincasino.com/img/",
-      PORT: 8001,
-      IP: "183.83.178.233",
-      CASINO_API_BASE_URL: "https://dev-api.dreamdelhi.com/",
-      CASINO_OPERATOR_ID: "lifeincasino",
-      CASINO_AUTH_KEY: "SbkOCI5ftS83uhuO6mEEsa/AYBsbbOHww/G5g4C+T5wYyvEzkCbXOW1rFvhk6u4QVnVmzdjKKGUO1SQpz7CIiGDEXuDzJAZjpm2fm875T4ZUU+7DGJIIH2tsDwHf9Rs7RKNipH+5WMnve5C3kdoXr+6n5NrfiWwDHOHoEY6LIH4=",
-      SERVER_IP: "13.202.16.129",
-      APP_URL: "https://lifeincasino.com",
-      CASINO_AMOUNT_LIMIT: 400000,
-      MATCH_BEFORE_IN_PLAY_TIME: '30',
-      SUPER_OWNER_ID: "6332e02348ed275e89eadf14"
-    },
+    env_staging: {
+      PORT: 7002,
+      NODE_ENV: "staging",
+      REACT_APP_API_BASE_URL: "http://3.110.45.86:7001/",
+      REACT_APP_URL: "http://3.110.45.86:7002/"
+    }
   }]
 }
-
