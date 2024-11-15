@@ -9,7 +9,7 @@ const user = require("../../controllers/users/user.controller");
 router.post("/login", [], user.user_login);
 router.get("/refresh-amount", [verifyToken], user.refresh_amount);
 router.post("/refresh-token", [], user.refresh_token);
-router.post("/change-password", [verifyToken], [], user.changePassword)
+router.post("/change-password", [verifyToken], [], user.changePassword);
 router.get("/activity-logs", [verifyToken], user.activity_logs);
 router.get("/profile", [verifyToken], user.profile);
 router.post("/profile-update", [verifyToken], user.profile_update);
