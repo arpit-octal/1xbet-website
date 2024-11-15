@@ -1,0 +1,125 @@
+ @media screen and (min-aspect-ratio: 16 / 9) {
+
+     .on_live dd {
+         font-size: 2vw;
+     }
+
+     .on_live dd span {
+         font-size: 1.5vw;
+         line-height: 2vw;
+         border-radius: 0.3vw;
+         min-width: 2.2vw;
+         height: 2.2vw;
+     }
+
+     .on_live {
+         width: 15vw;
+     }
+
+     .header_btn {
+         width: 16.1919vmax;
+         height: 4.7976vmax;
+         line-height: 3.7976vmax;
+         box-shadow: inset 0 0.14993vmax 0 0 rgb(255 255 255 / 50%);
+         border-width: 0.14993vmax;
+         border-radius: 0.5997vmax;
+         margin-top: 0.14993vmax;
+         font-size: 2vw;
+     }
+
+     .login_btn span img {
+         width: 2.53333vw;
+         height: 2.53333vw;
+         margin-right: 0.33333vw;
+     }
+
+     .signup {
+         width: 19.2vw;
+     }
+
+     .brand_name img {
+         width: auto;
+         height: 6.44678vmax;
+     }
+
+     .header_top {
+         position: relative;
+         top: 0;
+         height: 8.24588vmax;
+         padding: 1.49925vmax 1.04948vmax 1.49925vmax 0;
+     }
+
+     .large_grid {
+         position: relative;
+         grid-column: span 1;
+     }
+
+     .extend-support,
+     .policy-link {
+         max-width: 100%;
+     }
+
+     .policy-link,
+     html,
+     body {
+         font-size: 1.5vw;
+     }
+
+     .appdl-link-android p,
+     .power-wrap-b {
+         font-size: 1vw;
+     }
+
+     .bottom_footer a {
+         color: #fff;
+         font-size: 2.2vw;
+         padding: 2vw;
+     }
+
+     .bottom_footer a img {
+         height: 5vw;
+     }
+
+     .bottom_footer {
+         display: none;
+     }
+
+     .home_game_list {
+         grid-template-columns: 1fr 1fr 1fr 1fr;
+         grid-gap: 1vw;
+         width: calc(100vw - 0vw);
+         padding: 1vw;
+     }
+
+     .large_grid {
+         position: relative;
+         grid-column: span 2;
+     }
+
+     .games_main .title span {
+         line-height: 1.5vw;
+         font-size: 1.2vw;
+         padding: 1vw 1.5vw;
+     }
+
+     .games_main .title h2 {
+         line-height: 4vw;
+         font-size: 1.3vw;
+         color: #fff;
+         font-weight: bold;
+         padding: 0 1vw;
+         padding-right: 3vw;
+     }
+
+     .games_main .title span::before {
+         position: absolute;
+         content: "";
+         bottom: 0;
+         left: -3vw;
+         width: 2.4vw;
+         border-bottom: 4vw solid #ffb80c;
+         border-left: 3vw solid transparent;
+         border-right: 0 solid transparent;
+     }
+
+ }

@@ -1,0 +1,17 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<title>image</title>
+	<defs>
+		<image  width="99" height="103" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGMAAABnCAMAAAAjdAyxAAAAAXNSR0IB2cksfwAAADxQTFRF////09PT39/fAAAAMDAwz8/Pr6+vICAgb29vLy8vv7+/f39/Pz8/7+/vj4+PT09PX19fHx8fwMDAkJCQtt8/QwAAAMBJREFUeJzt1ssOgjAQRuFquRYEi+//rpqOoRTDAp1xdb4VYdEDkT/ROQAAAACmLgdUG6du03Du6gtVbdBoyoZvDRpdOrkPIQwSMWiM6eDhdSWN0aAhD9/kmn4jSOOWa/qNSX6OTU2/MaeD72stGuwjll9urPUbuwX6ymDn7wXmmsF7yALHbU29kRe41tQb8vBhW9NufC5QvyGbaJdleaw17ca8+3Q7p98oF9hPzqBx4vaXjT/89wEAAAAAAADwsyfsFAV4h6wR6QAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: #ffffff } 
+		.t1 { font-size: 25px;fill: #000000;font-weight: 400;font-family: "Dangrek-Regular", "Dangrek" } 
+	</style>
+	<use id="Background" href="#img1" x="-32" y="-29"/>
+	<path id="Shape 1" class="s0" d="m1 2h22v20h-22z"/>
+	<text id="M" style="transform: matrix(1,0,0,1,2,21)" >
+		<tspan x="0" y="0" class="t1">M
+</tspan>
+	</text>
+</svg>

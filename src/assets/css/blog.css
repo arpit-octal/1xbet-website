@@ -1,0 +1,128 @@
+
+/* blog-page */
+
+.home-banner{padding: 26px 0 30px; background: #161617; background-image: url('../images/home-banner.png'); position: relative; background-size: 100% 100%; background-repeat: no-repeat; background-position: center;}
+
+.home-content-banner h1{font-weight: 500; color: #fff; font-size: 18px; letter-spacing: 0.5px; font-family: 'Montserrat', sans-serif;}
+.home-content-banner h2{color: #fff; font-weight: 700; font-size: 17px; font-style: italic; text-transform: uppercase; padding: 12px 0; font-family: 'Montserrat', sans-serif;}
+.home-content-banner p{color: #fff; font-weight: 400; font-size: 18px; font-family: 'Montserrat', sans-serif;}
+
+.m-ab-img {
+    /* height: 300px; */
+    width: 100%;
+    max-width: 64%;
+    margin: 0 auto;
+    display: block;
+}
+.home-banner-buttons ul li a {
+    color: #fff;
+    padding: 12px 16px;
+    text-transform: capitalize;
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 25px;
+    letter-spacing: 0.5px;
+    transition: all 0.6s;
+    box-shadow: 0px 22px 21px -8px rgba(0,0,0,0.5);
+    font-family: 'Montserrat', sans-serif;
+}
+.home-banner-buttons ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.home-banner-buttons ul li {
+    display: inline-block;
+    margin: 12px 3px 14px;
+}
+.home-banner-buttons ul li:nth-child(1) a{background: #20CD11; border: 1px solid #20CD11;}
+.home-banner-buttons ul li:nth-child(2) a{background: #20CD11; border: 1px solid #20CD11;}
+.home-banner-buttons ul li:nth-child(3) a{background: #20CD11; border: 1px solid #20CD11;}
+.home-banner-buttons ul li:nth-child(4) a{background: #5804FA; border: 1px solid #5804FA;}
+.home-banner-buttons ul li:nth-child(5) a{background: #5804FA; border: 1px solid #5804FA;}
+.home-banner-buttons a img {
+    height: 15px;
+    padding-bottom: 5px;
+    padding-right: 1px;
+    position: relative;
+    top: 8px;
+    margin-right: 3px;
+}
+
+.about-skyexch{padding: 0 0 53px; background: #161617; position: relative; z-index: 6;}
+.about-content-show{margin-top: 80px;}
+.about-content-show h2{color: #fff; font-family: 'Montserrat', sans-serif; font-size: 40px; text-transform: uppercase; font-weight: 800; font-style: italic; letter-spacing: 2px; margin-bottom: 30px;}
+.about-para p{font-size: 15px; font-weight: 500; font-family: 'Montserrat', sans-serif; color: #fff; margin-bottom: 15px;}
+.about-para p:first-child{font-size: 19px; font-weight: 600; font-family: 'Montserrat', sans-serif; color: #fff; margin-bottom: 20px}
+
+.width-40-perc {
+    text-align: center;
+}
+
+.width-60-perc img {
+    width: 100%;
+    max-width: 77%;
+    margin-top: 36px;
+    margin: 20px auto 7px;
+    display: block;
+}
+/* background-image: url('uploads/footer.png') */
+.footer-section{ background-position: center; background-repeat: no-repeat; background-size: cover; padding: 50px 0;}
+.left-footer p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 11px;
+}
+.left-footer ul{list-style: none; margin: 0; padding: 0;}
+.left-footer ul li{display: inline-block; color: #fff; margin: 0 15px 0 0;}
+.left-footer ul li a{color: #fff;}
+
+.footer-section {
+    background-image: url('../images/foote-blog.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 0;
+    text-align: center;
+}
+.left-footer ul img {
+    width: 16px;
+    height: 16px;
+}
+.ride-side-announcement a:first-child {
+    background: #5804FA;
+    border: 1px solid #5804FA;
+}
+.ride-side-announcement a:last-child {
+    background: #20CD11;
+    border: 1px solid #20CD11;
+    margin-left: 5px;
+}
+.ride-side-announcement a {
+    padding: 8px 20px;
+    font-size: 12px;
+}
+.ride-side-announcement a {
+    color: #fff;
+    padding: 11px 25px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 25px;
+    letter-spacing: 0.5px;
+    transition: all 0.6s;
+    font-family: 'Montserrat', sans-serif;
+}
+.ride-side-announcement img {
+    max-width: 13px;
+    position: relative;
+    top: 2px;
+}
+.ride-side-announcement {
+    margin-top: 27px;
+}
+/* blog-page */
