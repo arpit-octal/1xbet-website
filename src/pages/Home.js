@@ -82,7 +82,7 @@ function Home() {
           setData(response_users.results);
         }
       }
-    } catch (err) {}
+    } catch (err) { }
   };
 
   // useEffect(() => {
@@ -120,15 +120,15 @@ function Home() {
     <div>
       <Slider {...settings} className="homeSlider">
         <div>
-          <img src="/assets/images/home/Banner1.jpg" style={{ width: "100%" }} alt="" />
+          <img src="/assets/images/home/Banner-1.png" style={{ width: "100%" }} alt="" />
         </div>
 
         <div>
-          <img src="/assets/images/home/Banner2.jpg" style={{ width: "100%" }} alt="" />
+          <img src="/assets/images/home/Banner-2.png" style={{ width: "100%" }} alt="" />
         </div>
 
         <div>
-          <img src="/assets/images/home/Banner3.jpg" style={{ width: "100%" }} alt="" />
+          <img src="/assets/images/home/Banner-3.png" style={{ width: "100%" }} alt="" />
         </div>
       </Slider>
 
